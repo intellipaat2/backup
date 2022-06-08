@@ -1,0 +1,983 @@
+
+Salesforce Certified CPQ Specialist (W122)
+Time Taken: 60 minutes of 105 minutes total
+Result: Pass
+
+	CPQ Platform	78%
+	Bundle Configuration	70%
+	Pricing	77%
+	Quote Templates	100%
+	Product Selection	100%
+	Orders, Contracts. Amendments, and Renewals	55%
+	Products	57%
+Approvals
+Congratulations' You have successfully completed the certification exam to become a Salesforce Certified CPQ Specialist. Welcome to the Salesforce worldwide community of Certified Professionals'
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:45:23
+65 of 65. A bundle has a Product Option With the Quantity Editable field set to FALSE. However, the user can still change the quantity during configuration and save the new value to the Quote Line Editor.
+Which property of the Product Option allows for this scenario?
+A. Required FALSE
+B. Min Quantity = 
+C. Quantity NULL
+D. O Type • Related Product
+ Mark this item for later review.
+
+
+GLOBAL TESTING SOLUTIONS
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:45:25
+64 of 65. A customer is implementing CPQ to support two languages.
+Which two portions of text can be translated using the Salesforce CPQ Localization object?
+Choose 2 answers
+A. Configuration Attribute picklist values
+B. Picklist values in the Product Family field on the Product object
+C. The Feature Name field on the Configure Products page
+D. HTML Template Content in the Quote document
+Mark this item for later review.
+
+
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:45:27
+63 of 65. The EditLinesFieldSetName special field on the Quote object references a Field Set that directly controls which characteristic of the Quote une
+Editor?
+A. The Quote fields that may be edited.
+B. The fields that appear in the Quote Line Drawer.
+C. O The Quote Line fields that are visible.
+D. The fields that trigger a calculation event to occur.
+Mark this item for later review.
+< BackNext >Review AllSubmit Exam
+
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:45:31
+62 of 65. Universal Containers wants to update the Quantity of a Product in the Line Editor with a Price Rule. The rule should apply only for this specific
+< BackProduct.
+What should the admin do to ensure that the Price Rule only changes Quote Lines referencing this Product?
+A. Fill in the Lookup Object field on the Price Rule with the Product.
+B. Create an Error Condition against a Quote Line field that contains a value that is unique to the product selected.
+C. O Create a Price Condition against a Quote Line field that contains a value that is unique to the product selected.
+D. Fill in the Product field on the Price Rule with the Product.
+Mark this item for later review.
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:45:33
+61 of 65. Universal Containers (UC) is planning to end-of-life a subscription Product by preventing any new sales of the Product. UC wants to allow renewals if a customer has already purchased the Product.
+HOW can the admin meet this requirement?
+A. O Create a new renewal Product, then link it to the end-of-life Product by using the Renewal Product lookup.
+B. Delete the Product so it is unavailable for new business Quotes.
+C. Create an end-of-life checkbox on the Product, then create a Search Filter to exclude any Product marked end-of-life from Product Selection.
+D. Deactivate the Product since CPQ allows inactive Products to be renewed.
+Mark this item for later review.
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:45:34
+60 of 65. Universal Containers wants to update a custom Quote Line field within the Quote Line Editor with a value of Low. Medium. or High to categorize the margin of each Quote Line when the sales rep clicks Calculate.
+< BackWhich approach should the CPQ specialist recommend to meet this business requirement?
+A. A Workflow Rule and field update on the Quote Line to update the picklist field
+B. A Price Rule with the Calculation Event of On Initialization to update the pjcklist field
+C. A Process Builder on the Quote Line to update the picklist field
+D.O A Price Rule with the Calculation Event of After Calculate to update the picklist field
+Mark this item for later review.
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:45:36
+59 of 65. Universal Containers implemented CPQ Contract Amendment functionality via the Amend button on the Opportunity. Since an Account can have many different Contracts. the admin implemented a Contract Name custom field to allow the user to enter identifying information on each Contract record.
+How can the admin ensure that the user is presented with the custom Contract Name field when the user initiates an Amendment?
+A. Add the custom Contract Name field into the Active Contract Lookup Field Set on the Opportunity object.
+B. O Add the custom Contract Name field into the Active Contract Lookup Field Set on the Contract object.
+	c.	Create a custom Page Layout and add the custom Contract Name field to the layout.
+	D.	Create a custom Field Set on Contract and add the custom Contract Name fields to the Field Set.
+Mark this item for later review.
+
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:45:39
+< Back58 of 65. While making changes in the Quote Line Editor. sales reps have mentioned that clicking the Calculate button after each set of changes iS too many clicks. Management has asked the admin to streamline the Quote Line Editor so calculations occur automatically after each change is
+Which Managed Package setting should the admin enable to meet this requirement?
+A. O Calculate Immediately
+B. Use Legacy Calculator
+	c.	Enable Quick Calculate
+	D.	Use Inactive Prices
+Mark this item for later review.
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:45:41
+57 of 65. Universal Containers provides a discount for an enterprise-level customer if a single line's Net Price is above a certain threshold. The admin has set up a Price Rule with a reference to a custom formula field on the Price Condition to apply the discount automatically. The user has to click Calculate twice for the discount to apply.
+What is the most likely cause of the issue?
+A. O The use of formula fields in Price Conditions is unsupported, so the Price Rule fires and returns an error the first time.
+B. The Evaluation Scope of the Price Rule is set incorrectly to fire on the Configurator, so the Price Rule fires on the Configure Products page.
+C. The referenced formula field contains information that has yet to be calculated. the Price Rule fires the second time it is evaluated.
+D. The referenced formula field contains date/time data information that is unsupported, so the Price Rule fires sporadically.
+Mark this item for later review.
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:45:43
+56 of 65. What is the correct order of data import to load Products and Product bundles in CPQ?
+Submit ExamA. Product Option, Product Feature. Product, Option Constraints, Configuration Attributes
+B. Product Rules, Error Conditions, Configuration Rules, Product Action
+C. Product Features, Product, Product Options. Option Constraints
+D. Product. Product Features, Product Options, Option Constraints. Configuration Attributes
+Mark this item for later review.
+
+Review All
+
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:45:45
+55 of 65. The Require Approved Quote package-level setting prevents CPQ from generating records for which object?
+Submit Examm O Order
+B. Quote Document
+C. Contracted Price D.	Contract
+Mark this item for later review.
+
+< Back
+Review All
+
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:45:47
+54 of 65. Universal Containers wants its premier service. Shipping Plus, to appear at the top of Product Selection when users add Products to the
+Quote.
+Submit ExamHOW can the admin configure the Shipping Plus Product record to meet this requirement?
+A. Set the Product's Product Code as the only null Product Code of any Product.
+B. Set the Product's Sort Order as the only null Sort Order of any Product.
+C. O Set the Sort Order as the lowest numerical value of any Product's Sort Order
+D. Set the Product Code as the first alphabetically of any Product's Product Code.
+ Mark this item for later review.
+
+Option I :
+Optional SKU Small Storage Container
+Unit Price $2.00
+Quantity = 10
+Selected True Bundled False
+Option 2:
+Optional SKU Medium Storage Container
+Unit Price $4.00
+Quantity — 10
+Selected False Bundled False
+Option 3:
+Optional SKU — Custom Box Label
+Unit Price $0.05
+Quantity - 100
+Selected — False Bundled • True
+Option 4 :
+Optional SKU — Shipping
+Unit Price - $7.50
+Quantity — 
+Selected True Bundled • True
+If a user adds this bundle and saves it without making changes to the configuration, what will the Package Total be on the Small Business Bundle parent product Quote Line?
+A.	$37.50 $5.00 $25.00
+$17.50
+
+
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:45:54
+of 65. Universal Containers needs sales reps to look up Campajgn records to associate with specific Quote Unes in the Quote Line Editor. The admin created a lookup field on the Quote Line object that relates to the Campaign object, then added the lookup field into the Line Editor Field Set on the Quote Line object.
+What does the admin need to do so the sales reps can search Campaign records in the Quote Line Editor without seeing a warning message?
+A. Create a twin field on the Campaign object using the same API name as the lookup field.
+B. O Create and populate a Field Set on the Campaign object named CPQ_Lookup.
+C. Add the name of the lookup field into the Line Editor Field Set on the Quote object.
+D. Add the lookup field to the Quote Line page layout.
+Mark this item for later review.
+	51 of 65. Universal Containers wants to create a new product that will be sold as part of a bundle. The product should be priced as 	of ail other
+Product Options' net total price and carry a term of 12 months.
+The product has been configured as such:
+Percent Of Total (%) 10
+	Subscription Term	12
+Which product and option configuration will attain the required pricing?
+FieldDataoductubscription Pricing 
+Percent of Total Base 
+
+Percent Of Total Scope Percent Of Total
+CustomerProduct
+Product Option BothDataProductoductubscription Pricing 
+Percent of Total Base 
+Product Option Percent Of Total Scope Percent of TotalNetBothjectField
+
+Pricing MethodDataoductPercent of TotalProduct
+
+Product Option Percent Of Total Base Percent of Total CustomerScopePackageField	DataProduct	ubscription Pricing Percent Of TotalProduct	Percent Of Total Base Net
+Product OptionPercent of Total ScopelComponentsB.
+C' O 
+	D.	
+
+Mark this item for later review
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:46:03
+SO of 65. After installing the Advanced Approvals managed package. which object IS enabled out of the box to leverage all Advanced Approvals functionality?
+A. CPQ Quote object
+B. CPQ Quote Line object
+C. Core Salesforce Quote object
+Submit ExamD. Opportunity object
+ Mark this item for later review.
+
+< Back
+Next >
+Review All2022 KRYTERION, Inc. and KRYTERION. Limited All Rights Reserved. I,'.KRYTERION••
+
+SOLUTIONS
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:46:03
+49 of 65. Universal Containers (UC) has a Product Family called Software. When a Configuration Attribute in the bundle is set to Perpetual. UC wants to
+Hide all Products with the Product Family called Software. The admin has created a Product Rule with a Configuration Rule.
+Which additional supporting records should the admin configure so the Product Rule meets this requirement?
+A. An Error Condition should compare the Product Family value on the Product Option record. A Product Action should Show all Products with Product Family other than Software.
+B. An Error Condition should check the Product Family value on the Product Option record. A Product Action using the Filter Field should Hide the Products.
+C. O An Error Condition should compare the Perpetual value against the Configuration Attribute. A Product Action using the Filter Field should Hide the Products.
+D. An Error Condition should compare the Perpetual value against the Configuration Attribute. A Product Action should Hide each
+Product.
+Mark this item for later review.
+SOLUTIONS
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:46:05
+48 of 65. An admin wants the user to have the ability to choose options and define option quantity via bundle configuration.
+Which three values for Configuration Type will meet this requirement?
+Choose 3 answers
+Required
+Allowed
+C. Add
+D. Disabled
+E. None
+Mark this item for later review.
+
+< Back
+Next >
+Review AllSubmit Exam
+SOLUTIONS
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:46:06
+47 of 65. Universal Containers has a Standard Warranty product that is priced as a Percent of Total subscription product. It is priced as 25% of the Net
+Price of all Shipping Container products added to the Quote.
+When generating a partial Order via the Create Order button, the admin notices the Standard warranty was absent from the Order Product selection page.
+What should the admin do to allow the Standard Warranty product to create an Order Product?
+A. Create one Standard Warranty Quote Line for every Shipping Container Quote Ljne on the Quote.
+B. Set the Product Family picklist on the Standard Warranty product's Product record to Services,
+C. Ensure that the Standard Warranty Quote Line's Start Date and End Date match the Order's Start Date and End Date.
+D. O Select any Shipping Container product on the Order Product selection page to automatically generate a Standard Warranty Order Product on the Order.
+Mark this item for later review.
+
+SOLUTIONS
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:46:08
+46 of 65. When amending a contract, users have reported that the net pricing of some products is incorrect. The admin has done a preliminary investigation and found that the issue only happens on existing products when the quantity is adjusted.
+What is the likely cause?
+A. A Price Rule is firing Before Calculate and changing the Regular unit Price.
+B. A Price Rule iS firing On Calculate and changing the Effective Quantity.
+C. The products have a Discount Schedule and Cross Order is unselected.
+D. The Revised Quantity has been set on the Subscription record.
+Mark this item for later review.
+SOLUTIONS
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:46:08
+45 of 65. Universal Containers wants to ensure that information in custom fields provided on original Quote Lines should also appear on Quote Lines for the Renewal Quotes.
+How should the admin set up this data flow?
+A. Renewal Quote Line values are automatically mapped from original Quote Lines.
+B. A custom formula field should look up through the SBQQ_Source_c Quote Ljne lookup to the original Quote Line.
+C. A Price Rule should be created to pull the value from the original Quote Line and populate the Renewal Quote Line.
+D, O A twin field should be created on both the Asset and Subscription objects to bring back to Renewal Quote Lines.
+Mark this item for later review.
+SOLUTIONS
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:46:10
+44 of 65. Universal Containers offers Container B as one of the configurable options of Container A. Container B is itself configurable with options X, Y. and Z.
+How should the admin configure this?
+A. Create a bundle with Container B and options X, Y, and Z as product options for Container A.
+B. Create a dynamic quote process that guides the user to choose Container B and options X. Y, and Z if Container A is selected.
+C. Create a search filter which only shows Container B if Container A is on the Quote or owned by the customer.
+D. O Create a bundle with options X, Y, and Z as product options of Container B. and Container B as a product option for Container A.
+ Mark this item for later review.
+
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:46:12
+43 of 65. How should the admin ensure Universal Containers' users can generate output documents in Microsoft Word format?
+A. Create a second Quote Template in Microsoft Word format. B. Create duplicate Template Sections in Microsoft Word format. C. Set the Allow Output Format Change checkbox on the Quote Template.
+Submit ExamD. O Set the Allow Output Format Change checkbox on each user in User Settings.
+Mark this item for later review.
+
+< Back
+Next >
+Review All2022 KRYTERION. Inc. and KRYTERION. Limited - All Rights Reserved. IZKRYTERION•
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:46:14
+42 of 65. The Universal Containers admin is creating a custom formula field, Approval Score, on the Quote Line object to calculate approval score. This field will calculate the average approval score for the Quote to determine how many levels of approval the record should go through when submitted.
+The admin planned to use a roll-up summary field on the Quote object to average the Quote Line Approval Score field. The admin received an error when attempting to create the field. The Quote Object has too many roll-up summary fields.
+In addition to creating a custom number field on the Quote object to capture the average Approval Score, which CPQ functionality should the admin use to resolve the issue?
+A. Create a trigger to populate the average Approval Score.
+B. Create a Summary Variable and Product Rule to populate the number field with the average Approval Score.
+C. Create a Summary Variable and Price Rule to populate the number field with the average Approval Score.
+D. Create a Workflow Rule with a Field Update to populate the average Approval Score.
+
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:46:16
+41 of 65. Universal Containers wants to make sure that Product Option A is included when Product B is being configured and sold. Sales reps should be unable to remove Product A.
+Which field should be set for the Product Option A?
+A. O Bundled
+B. Required
+C. Quantity Editable D.	Selected
+Mark this item for later review.
+
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:46:19
+40 of 65. Universal Containers sells a non-renewable subscription Product that is priced on a yearly basis.
+Which Subscription field values should the admin set to meet this requirement?
+• • Subscription Term: 12
+• Subscription Type: One-Time
+• Subscription Pricing: Fixed Price
+	B.	• Subscription Term: t
+• Subscription Type: One-Time
+• Subscription Pricing: Percent of Total
+	c.	Subscription Term: I
+• Subscription Type: Evergreen
+• Subscription Pricing: Percent of Total
+	D.	Subscription Term: 12
+• Subscription Type: Evergreen
+• Subscription Pricing: Fixed Price
+
+
+What is the calculated List Unit Price the user should see for Cloud Storage Support?
+A. $275
+B. O $225
+	c.	$25
+	D.	$50
+ Mark this item for later review.
+
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:46:29
+38 of 65. Universal Containers (UC) sells a product that uses Percent of Total to determine its price. UC wants to ensure that this product is always priced at a minimum of $100, even if the calculated amount falls under $100.
+Which two steps should the admin take to meet this requirement?
+Choose 2 answers
+Set the product's Percent of Total Constraint field to List price is minimum.
+Create a Price Book Entry of $100 for the product.
+Create a Price Book Entry of $0 for the product.
+	D. 	Set the product's Price Editable field to TRUE.
+Mark this item for later review.
+
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:46:31
+37 of 65. Universal Containers has five Products.
+
+The Percent Of Total Category field for the Warranty Product is null.
+What would the Warranty's List Unit Price be if all Products are added to a Quote with a Quantity of I?
+A. 	$25.00 B. O $50.00
+c. $35.00 D. 	$15.00
+Mark this item for later review.
+
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:46:33
+36 of 65. Universal Containers has a slab Discount Schedule for Product A with these Discount Tiers:
+NameLower Upper DiscountFirst Level111Second Level2125%ird Level2150%If Product A has a List Price of $100.00, what is the Net Total for a Quote Line with the quantity of 21?
+A. $1,575.00
+B. $1,725.00
+c.
+	D. 	$1,050.00
+ Mark this item for later review.
+
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:46:35
+35 of 65. Universal Containers (UC) wants to organize quoted products representing different project milestones with Quote Line Groups in the Quote
+Line Editor. When the customer accepts the Quote, UC wants the sales operations team to generate a separate order per Quote One Group.
+HOW should the admin meet the business requirements?
+A. Leverage Salesforce automation to select the Order by Quote Line Group field on the Quote.
+B. Leverage Salesforce automation to set the Ordered By field on the Quote to a picklist value that represents a custom Quote Line field.
+C. Create a procedure where Sales Reps enter notes on each Quote Line to indicate which products belong on the same Order.
+D. Create a Validation Rule that prevents an Order Product from being created on an Order representing the wrong milestone.
+Mark this item for later review.
+
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:46:38
+34 of 65. Universal Containers requires its customers to commit to a new 12-month Contract Term whenever requests to modify the existing Contract are made.
+Which two steps should the admin take to generate accurate Order records?
+Choose 2 answers
+A. Amend the existing Contract and extend the End Date to 12 months from today. Process the Amendment using the normal Quote > Order > Contract flow.
+B. use the Evergreen Contract feature to permit existing Contracts to be extended beyond the original term.
+C. Amend the existing Contract, updating all Quote Line Quantities to zero, effectively canceling the Contract. Process the Amendment using the normal Quote > Order > Contract flow.
+D. Renew the existing Contract, update the Quote Start Date to today, and modify the Quote's End Date to 12 months from today. Process the Renewal using the normal Quote > Order > Contract flow.
+ Mark this item for later review.
+
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:46:40
+33 of 65. Universal Containers has a Quote that contains a Quote Line associated to an Asset Product in addition to another Quote Line.
+Which property must be present on the additional Quote Line to create a Subscribed Asset at the time of Contract generation?
+A. Bundled equals True
+B. Subscription Pricing equals Percent Of Total
+C. Package equals True
+D. O Pricing Method equals Percent Of Total
+ Mark this item for later review.
+
+	2022 KRYTERION. Inc. and KRYTERION, Limited 	Rights Reserved. I,'.KRYTERJON••
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:46:42
+32 of 65. Universal Containers wants to prevent a Quote Term from being edited by other users.
+Submit ExamWhat should the admin do to meet this requirement?
+A. On the Quote Term record, check the Read-Only checkbox.
+B. O On the Quote Term record, check the Locked checkbox.
+C. On the User Profile, make the object Read-Only.
+D. On the Quote Term object, make the object Read-only.
+Mark this item for later review.
+
+< Back
+Review AllSalesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:46:44
+31 of 65. The admin at Universal Containers has received feedback about the amount of horizontal scrolling necessary to access Clone and Delete actions on Quote unes in the Quote Line Editor.
+What should the admin do to resolve this issue?
+A. Set a lower value in the Display Order field on the Custom Action record.
+B. O Change the Actions Column Placement in package settings to Left.
+C. Move the Clone and Delete actions into the Quote Line Editor drawers.
+D. Update the Custom Action Location to Quote.
+ Mark this item for later review.
+
+
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:46:46
+30 of 65. Universal Containers has a Product that requires a price of USD 100 and EUR 95 In the 2021 Price Book. When the Product is selected under a bundle. the price should be included as part of the bundle.
+How should the admin meet this requirement?
+	• Change the Price Book Entries for the Product in the 2021 Price Book to 100 USD and 95 EUR. • On the Product Option, set the System field to True.
+B.	Change the Price Book Entries for the Product in the 2021 Price Book to 100 USD and 95 EUR. • On the Product Option, set the Selected field to True.
+co	Change the Price Book Entries for the Product in the 2021 Price Book to 100 USD and 95 EUR.  On the Product Option. set the Bundled field to True.
+	D.	Create a Product Option record and set the Unit Price field to 100 and the Currency field to USO.
+• Create a Product Option record and set the Unit Price field to 95 and the Currency field to EUR.
+• On both Product Option records, set the Required field to True.
+	Mark this item for later review.	
+
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:46:48
+29 of 65. An admin has pasted the Salesforce 10 of an image Into the Watermark ID field of a Quote Template. but the watermark image is absent from the rendered Document.
+What is preventing the watermark from appearing?
+A. The Opportunity's Stage field is equal to Closed/Won.
+B. O The Watermark Shown Quote field is unchecked.
+C. The Quote's Status field is equal to Approved.
+D. The image file type is PNG.
+Mark this item for later review.
+
+< BackSalesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:46:58
+28 of 65. Universal Containers has set up an Account lookup field, Distributor_c, on the Quote to identify different distributors per group. Distributor accounts have a Discount_Level c field populated with the base discount percentage that products provided by that distributor Will receive.
+Which set of actions should the admin take to ensure that the distributor receives the appropriate Distributor Discount?
+• Create a Configurator Scoped Price Rule that has a Price Condition where o Object with value Quote Line o Tested Formula field with value o Operator field With value Not Equals o Filter Type field with Value selected o Filter Value field with blank value
+• Add a Price Action to the Price Rule where o Target Object with value Quote Line o Target Field with value o Formula Field with value	c
+	B.	• Create a Configurator Scoped Price Rule that has a Price Condition where
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:47:00
+27 of 65. An admin created a picklist field on the Product Option object called Picklist123_c. The admin created a Configuration Attribute related to a Product called Bundle Z whose Target Field is Picklist123 c. The admin selected Bundle Z during Product Selection and populated a value for Picklist123 c on the Configuration Attribute and saved from configuration. The admin noticed that when Bundle Z is reconfigured, the value populated in the Configuration Attribute has reverted.
+How can the admin ensure the selected value persists in the Configuration Attribute when Bundle Z iS reconfigured?
+A. Create a Workflow Rule that updates the Product Option field upon entering configuration.
+B. Create a Price Rule with Configurator scope that injects the Quote Line field value into the Product Option field.
+C. Create field Picklist123_c on the Quote Line object so the value is auto-mapped back to the Configuration Attribute when the user re-enters configuration.
+D. Create a Product Option formula field named AttributeMapping that returns a comma-separated string of field name and value pairs.
+Mark this item for later review.
+
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:47:02
+26 of 65. In what way does Smart Approvals expedite the approval process?
+A. Approving a Quote will auto-approve any lesser-discount Quotes related to the same Opportunity.
+B. Quotes with multiple steps in the approval chain go directly to the highest approver required.
+C. Quotes within defined thresholds will be automatically approved.
+D. Rejected Quotes that are resubmitted within previously approved values go directly to the person who rejected them.
+Mark this item for later review.
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:47:04
+of 65. An admin wants to set up a bundle product so a user can view all available options and selected options by scrolling in a Single page.
+Which updates should the admin make to meet this requirement?
+A. O Update Option Layout on the parent Product record to Sections.
+B. Update Option Layout on the parent Product record to Wizard.
+C. Create Features related to the parent Product and assign each Feature the Option Selection Method of Dynamic.
+	o.	Create Features related to the parent Product and assign all Options to one of the created Features.
+Mark this item for later review.
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:47:06
+24 of 65. Universal Containers has four Prtce Rules with different Calculator Evaluation Events and Evaluation Orders.
+Which rule will evaluate first?
+A. Rule D with Evaluation Order of 5, and Calculator Evaluation Event of On Calculate
+B. O Rule B with Evaluation Order of 20. and Calculator Evaluation Event of On Initialization
+C. Rule C with Evaluation Order of 20. and Calculator Evaluation Event of Before Calculate
+	O.	Rule A with Evaluation Order of 10. and Calculator Evaluation Event of Before Calculate
+Mark this item for later review.
+
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:47:08
+23 of 65. Northern Trail Outfitters (NTO) wants to reflect future renewals in its forecast pipeline as soon as the current Contract iS created.
+Some customers will require changes to existing Contracts during the Contract Term. NTO wants the Opportunity pipeline to reflect this as soon as these changes are applied.
+What should the admin configure to meet the requirement?
+A. Automate setting the Renewal Forecast checkbox and Renewal Quoted checkbox on the current Contract upon creation.
+B. O Automate setting the Renewal Quoted checkbox on the current Contract upon creation.
+C. Automate setting the Renewal Forecast checkbox with a Lightning Quick Action on the Opportunity.
+D. Automate setting the Renewal Forecast checkbox on the current Contract upon creation.
+Mark this item for later review.
+
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:47:10
+of 65. An admin at Universal Containers has observed that the value in the Quantity field on an Opportunity Product is different from the value In the Quantity field on its associated Quote Line.
+Which two scenarios describe when Quote Line Quantity and Opportunity Product Quantity will be different?
+Choose 2 answers
+A. There is a Price Rule that changes the Quote Line's Quantity on the After Calculate event.
+B. The Quote Line is on an amendment Quote and has a different Quantity from its original Quote Line.
+C. The Quote Line's Product has Asset Conversion set to One Per Unit.
+D. The Quote Line's Product has Pricing Method set to Block.
+ Mark this item for later review.
+
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:47:12
+21 of 65. While performing an amendment, a sales rep IS unable to edit the Additional Discount for an existing subscription Quote Line.
+What is the cause of this behavior?
+A. O The Non Discountable field is marked True on the Product record for the Quote Line.
+B. Additional Discount Is a locked field on amendment Quotes.
+C. A Product Rule is preventing the Additional Discount from being edited.
+D. The org is using legacy amendment and renewal service.
+ Mark this item for later review.
+
+2022 KRYTERION, Inc. and KRYTERION, Limited - All Rights Reserved.
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:47:14
+20 of 65. When an Order is Contracted, the sales operations team needs to store a unique license number on the Asset record for each downloadable
+Product sold.
+How should the admin meet the business requirement?
+A. Set Asset Conversion for each downloadable Product to a custom value.
+B. O Set Asset Conversion for each downloadable Product to One per quote line.
+C. Set Asset Conversion for each downloadable Product to One per unit.
+D. Set Asset Conversion for each downloadable Product to null.
+Mark this item for later review.
+Review All		Submit Exam
+
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:47:16
+19 of 65. An admin has implemented a new CPQ business requirement in a sandbox. They have created new products and used them to construct a bundle. The admin has also created a Product Rule that automatically selects Product Options when the user selects a specific Configuration
+Attribute.
+In which sequence should the admin migrate the records related to the new CPQ functionality in order to maintain record relationships?
+A. Products. attributes, options, rules
+B. O Products. options, attributes. rules
+C. Products. attributes, rules. options
+D. Attributes. products, options, rules
+Mark this item for later review.
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:47:19
+18 of 65. The admin at Universal Containers wants to add some Maintenance and some Support products to the parent bundle. Maintenance and Support products should display in separate sections during configuration. with the Support products displaying above the Maintenance products.
+Review AllSubmit ExamHow should the admin set up the bundle to meet both requirements?
+A. O Create two Product Features: Maintenance and Support. The Support Feature should have a lower value in the Number field.
+B. Create two Product Features: Maintenance and Support. The Maintenance Feature will always display first, due to alphabetical ordering.
+C. Create two Product Options: Maintenance and Support. The Maintenance Option will always display first, due to alphabetical ordering.
+D. Create two Product Options: Maintenance and Support. The Support Option should have a lower value in the Number field.
+Mark this item for later review.
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:47:21
+17 of 65. Universal Containers (UC) has an upcoming user conference that UC wants to promote to its customers. The admin has created a Product
+< BackSelection Rule to automatically add a Conference Pass Product to all new Quotes.
+When can a user expect the Conference Pass Product to be added to the Quote during the quoting process?
+A. The user calculates a Quote.
+B. The user selects a Configuration Attribute value for a Product.
+C. The user saves the Quote.
+D. The user selects a Product for the Quote.
+Mark this item for later review.
+
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:47:24
+16 of 65. Given the Discount Schedule and pricing details of the Cloud Storage Product, what is the calculated Regular Unit Price for the Quote Line?
+Quote Line field values:
+• List Price: $100
+• Quantity: 5
+Discount Schedule field values:
+• Type: Slab
+• Discount Unit: Percent
+Discount Tiers:
+Tier Nametower BoundUpper Bound
+3Discount0%2366blank20%	A.	$480.00
+	$470.00 c.	$500.00
+	D.	$450.00
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:47:28
+IS of 65. Universal Containers requires a subset of products to be viewed based on a button on the Quote Line Editor.
+Submit ExamWhich Salesforce CPQ functionality will satisfy this requirement?
+A. Custom page security plug-in script
+B. Price Rules
+C. Custom Action with Search Filter
+D. Product Rules of filter type
+Mark this item for later review.
+
+Review AllSalesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:47:29
+14 of 65. A sales user generated a Renewal Opportunity with Opportunity Products by using the Renewal Forecast checkbox on the Contract. Near the end of the Contract, the sales user navigates to the Renewal Opportunity and uses the New button from the Quotes Related List. The sales user notices the Renewal Quote is missing some of the renewable Products. Preserve Bundle Structure on the Contract is set to True.
+What are two ways a sales user should generate an accurate Renewal Quote?
+Choose 2 answers
+A. - Clone the original Quote and update Quote Type to Renewal.
+Create Renewal Quotes using the Renew Contracts button from the Account's Contract Related List.
+C. Create Renewal Quotes using the Renewal Quoted checkbox on the Contract.
+D. Clone the original Opportunity using the Clone with Products button and use the New Quote button in the Quote related list.
+Mark this item for later review.
+
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:47:31
+13 of 65. Universal Containers sells a monthly subscription service With tiered pricing:
+Total Price$1,000 for the first too units$1,000 plus $9 per unit above 100$4,600 plus $8 per unit above 500$8,600 plus $7 per unit above 1.000Which approach will allow the Quote Line's List Price to reflect these tiers?
+A. Set the Product's Pricing Method List and Create Block Prices.
+B. O Set the Product's Pricing Method = Block and Create Block Prices.
+C. Create a Discount Schedule with Type Range and Discount Unit Price.
+D. Create a Discount Schedule with Type Slab and Discount unit • Amount.
+ Mark this item for later review.
+
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:47:33
+12 of 65. Universal Containers sells a bundle Product which contains many Features and Options. Users report that the bundle is difficult to configure due to a significant amount of scrolling to find the desired Features and Options.
+What are three ways the admin can adjust the design of this bundle to reduce scrolling in Configuration?
+Choose 3 answers
+A.Group the Product Features of the bundle into tabs using the Category field.
+B.Change Option Layout to Tabs on the bundle Product.
+C.Set System to True on the Product Options to be excluded from the Configurator.
+D.Set Option Selection Method to Add on the Product Features.
+	E.	Change Enable Large Configuration to True on the bundle Product.
+Mark this item for later review.
+
+
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:47:36
+11 of 65. An admin creates a Search Filter for Product Code that has a predefined Filter Value of Green and an operator of •starts with. •
+If the Search Filter is visible, how can sales reps interact with the filter on the Product Selection screen?
+A. Sales reps can see the filter. but are unable to alter the filter text.
+B. Sales reps can change the operator from -starts with" to "contains. •
+C. O Sales reps can delete the text to ignore the filter.
+D. Sales reps can replace the text, but are unable to leave the required field blank.
+ Mark this item for later review.
+
+	2022 	Rights Reserved.
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:47:38
+10 of 65. If a manager is taking a leave of absence, how can the admin using Advanced Approvals ensure that another manager will receive Approval requests during the period in which the original manager is absent?
+A. On the original manager's Approver record. set the Delegated Approver lookup field to reference a different manager's Approver record. and set the Delegation End field for the date of the original manager's return.
+B. On the original manager's Approver record. reference a different manager's Approver record in the Next Approver lookup field. Clear the Next Approver lookup field once the original manager returns from leave.
+C. Create a new Approver record, with the Group ID field set to the ID of a Public Group that contains all of the managers. On the original manager's Approver record, click the Replace button and select the new Approver record.
+D. Create an Approval Rule with an Effective Start Date and Effective End Date spanning the absence. Populate the Approver field of the rule With the substitute Approver. then add the rule to the existing Approval Chain as the first step.
+Mark this item for later review.
+
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:47:40
+9 of 65. An admin wants users to make changes In the configurator without Product Rules evaluating on every update. Users should be able to manually fire the rules. The admin has created Product Rules with an Evaluation Event of Edit or Always.
+Submit ExamWhich final step should an admin take to meet this requirement?
+A. Enable Large Configurations set to TRUE in package settings.
+B. Create all Product Options with Apply Immediately Context set to NULL.
+C. Ensure the Apply Rules Custom Action is active.
+D. Set Configuration Event on the bundle parent Product record to Always.
+ Mark this item for later review.
+
+< Back
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:47:42
+8 of 65. A subscription product that was newly created fails to display in the Product Selection screen when users search for it.
+What are three possible reasons for this behavior?
+Choose 3 answers
+	A.	The Product is missing a Pricebook Entry for the Quote's Pricebook.
+B.The Optional checkbox is TRUE on the Product record.
+C.The Component checkbox is TRUE on the Product record.
+D.The Product IS missing a related Cost record.
+E.The Active checkbox is FALSE on the Product record.
+Mark this item for later review.
+
+< Back
+Nexe >
+Review AllSubmit Exam
+SOLUTIONS
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:47:45
+of 65. When creating Orders from Quotes with Salesforce CPQ. the admin wants to separate similar Products into Orders based on the Product Family of the Products being ordered.
+Which two steps must the admin perform to automatically split these types of Orders?
+Choose 2 answers
+A. Set the Order By field on the Quote to Product Family.
+B. Set the Order By field on the Quote Line to Product Family.
+Enable Allow Multiple Orders from a checkbox in the CPQ Package Settings.
+D. Enable Allow Multiple Orders from a checkbox on the Quote.
+Mark this item for later review.
+
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:47:47
+6 of 65. Universal Containers requires sales reps to choose a Square Footage value on the Configuration Attribute on one of the bundles to hide Product Options that are incompatible for the selected square footage. When the sales reps re-configure the bundle on a Renewal Quote, the Square Footage value that was set on the Configuration Attribute of the original Quote is reset to its default value. Currently, the sales reps must select the square footage again on the Renewal Quote.
+HOW should the admin improve this process so the Configuration Attribute retains its value upon Renewal?
+A. Set the Renewed Subscription lookup field on the renewal Quote Lines to reference the original Subscriptions.
+B. Set the Renewed Asset lookup field on the renewal Quote Lines to reference the original Assets.
+C. Create a Twin Field of the Square Footage field on the Asset and Subscription objects.
+D. Create a Twin Field of the Square Footage field on the Quote Line object.
+ Mark this item for later review.
+
+< Back
+Submit Exam
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:47:49
+	S of 65. Universal Containers sells a product which must be priced as 	of the total of all other fixed-priced products present on a quote.
+Which two options represent a valid configuration to meet this requirement?
+Choose 2 answers
+A. Pricing Method set to Percent of Total and Subscription Pricing set to Custom
+B. Pricing Method set to List and Subscription Pricing set to Percent of Total
+C. Pricing Method set to Custom and Subscription Pricing set to Custom
+	O. 	Pricing Method set to Percent of Total and Subscription Pricing blank
+Mark this item for later review.
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:47:49
+4 of 65. Universal Containers wants to show a custom text field with the API name Additional_Text_c on the Quote Document. This field already exists and is located on the Quote object.
+What is the correct syntax to insert this into an HTML Template Content?
+A.
+B.
+c.
+00
+Mark this item for later review.
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:47:51
+3 of 65. An admin notices the fields placed in the SBQQ_SearchFilter Field Set on the Product object are different than the fields displayed when using the Filter action in Product Selection.
+Why are the fields shown to the user different than those defined in the SBQQ_SearchFilter Field Set during Product Selection?
+A. Check for any Search Filter records that have been created in the org. If present, Search Filters override the values defined in the SBQQ—SearchFilter Field set.
+B. Ensure that any fields included in the SBQQ_SearchFilter Field Set on Product are also included in the SBQQ_SearchResults Field Set.
+C. O Establish a Product Results Group Field Name in the CPQ Package Settings. This enables compatibility with filtering.
+D. Set Large Quote Experience in the CPQ Package Settings to True. The enhancements made to search filtering are only available in the Large Quote Experience.
+Mark this item for later review.
+
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:47:52
+of 65. Universal Containers allows clients to negotiate a discount for Product A until a specified date upon Contract activation.
+Which three fields on the Contracted Price record should be configured to satisfy this requirement?
+Choose 3 answers Discount
+	B.	Product
+	c.	Effective Date
+	D.	Contract
+	E• 	Expiration Date
+
+Salesforce Certified CPQ Specialist (W122)
+Time Remaining : 00:47:54
+I of 65. A Quote has one Quote Line for a subscription product with an End Date that differs from the Quote's End Date.
+Which date will CPQ use to calculate the prorate multiplier?
+A. 	The earliest date B. 	The Quote date C. O The Quote Line date D. 	The latest date
+ Mark this item for later review.
+
+
+
+
+2022 KRYTERION. Inc. and KRYTERION. Limited All Rights Reserved.
+
+2022 KRYTERION. Inc. and KRYTERION. Limited All Rights Reserved.
+
+partner
+
+
+
+KRYTERION	partner
+GLOBAL TESTING SOLUTIONS
+
+partner
+
+
+
+
+
+partner
+
+
+
+KRYTERION	partner
+GLOBAL TESTING SOLUTIONS
+
+IZKRYTERION	partner
+GLOBAL TESTING SOLUTIONS
+
+
+
+2022 KRYTERION. Inc. and KRYTERION. Limited - All Rights Reserved.
+
+KRYTERION	partner
+GLOBAL TESTING SOLUTIONS
+
+
+
+
+
+IZKRYTERION	partner
+GLOBAL TESTING SOLUTIONS
+
+
+
+2022 KRYTERION. Inc. and KRYTERION. Limited - All Rights Reserved.
+
+IZKRYTERION	partner
+GLOBAL TESTING SOLUTIONS
+
+2022 KRYTERION. Inc. and KRYTERION. Limited - All Rights Reserved.
+
+
+
+partner
+
+
+
+
+
+partner
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+partner
+
+KRYTERION	partner
+GLOBAL TESTING 
+
+
+
+
+
+partner
+
+
+
+KRYTERION	partner
+GLOBAL TESTING 
+
+KRYTERION	partner
+GLOBAL TESTING 
+
+
+
+
+
+
+
+
+
+partner
+
+KRYTERION	partner
+GLOBAL TESTING SOLUTIONS
+
+- All
+
+
+
+KRYTERION	partner
+GLOBAL TESTING 
+
+- All
+
+KRYTERION	partner
+GLOBAL TESTING 
+
+KRYTERION	partner
+GLOBAL TESTING SOLUTIONS
+
+
+
+
+
+KRYTERION	partner
+GLOBAL TESTING 
+
+
+
+IZKRYTERION	partner
+GLOBAL TESTING 
+
+IZKRYTERION	partner
+GLOBAL TESTING SOLUTIONS
+
+2022 KRYTERION. Inc. and KRYTERION. Limited - All Rights Reserved.
+
+2022 KRYTERION. Inc. and KRYTERION. Limited - All Rights Reserved.
+
+IZKRYTERION	partner
+GLOBAL TESTING SOLUTIONS
+
+2022 KRYTERION. Inc. and KRYTERION. Limited - All Rights Reserved.
+
+partner
+
+partner
+
+
+
+
+
+partner
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+KRYTERION	partner
+GLOBAL TESTING SOLUTIONS
+
+KRYTERION	partner
+GLOBAL TESTING SOLUTIONS
+
+
+
+
+
+KRYTERION	partner
+GLOBAL TESTING SOLUTIONS
+
+
+
+partner
+
+KRYTERION	partner
+GLOBAL TESTING SOLUTIONS
+
+KRYTERION. Inc. and KRYTERION, Limited - All 
+
+KRYTERION. Inc. and KRYTERION, Limited - All 
+
+partner
+
+KRYTERION. Inc. and KRYTERION, Limited - All 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	< Back	Review All Submit Exam
+
+	< Back	Review All Submit Exam
+
+
+
+	< Back	Review 	Submit Exam
+
+
+
+
+
+
+
+	Review All	Submit 
+
+
+
+	Review All	Submit 
+
